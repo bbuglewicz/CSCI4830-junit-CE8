@@ -28,6 +28,6 @@ public class TestComputation_Parameterized {
    @Test
    public void testGetDiscount() throws Exception {
  	  int actualResult = com.getDiscount(mInput1, mInput2);
-      //Assert.assertEquals(mExpected, actualResult);
+      Assert.assertEquals(mExpected, actualResult);
    }
 }
